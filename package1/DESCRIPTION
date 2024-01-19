@@ -1,11 +1,21 @@
 Package: package1
-Title: What the Package Does (One Line, Title Case)
+Title: Helper Functions for Effective Data Science 2023-24
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person(
+    given = "Ashlynn",
+    family = "L", 
+    email = "ashlynn.lu@outlook.com", 
+    role = c("aut", "cre"))
+Description: A minimal example R package created during the first 
+  live session of Effective Data Science 2023-24. This contains a 
+  simple function to calculate a moving average.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.0
+Imports: 
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
